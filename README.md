@@ -12,6 +12,7 @@ python -m pip install --upgrade pip
 # To install this package, run command:
 pip install django
 pip install djangorestframework
+pip install django-rest-framework
 
 # Create django project
 django-admin startproject [project_name] .
@@ -33,3 +34,12 @@ python manage.py makemigrations
 # Run migration
 python manage.py migrate
 
+# Error no reconce el rest_framework
+    Control+ shift + p.
+    type 'Python: Select Interpreter' and select the same.
+    choose your virtual env from the list if it is not listed please choose Enter Interpreter path'
+    path of your virtual env python.exe file.
+
+mine was : D:\Python\Python_Django\trydjango\env\Scripts\python.exe
+
+You can find similar path according to your project
