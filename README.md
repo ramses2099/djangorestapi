@@ -43,3 +43,6 @@ python manage.py migrate
 mine was : D:\Python\Python_Django\trydjango\env\Scripts\python.exe
 
 You can find similar path according to your project
+
+# Create admin users
+python manage.py createsuperuser
